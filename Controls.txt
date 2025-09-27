@@ -1,0 +1,9 @@
+Since there's alot.
+
+Press I or The Up Arrow to move the second Player Up
+Press K or The Down Arrow to move the second Player Down
+Press Space to reset the ball (incase it gets stuck)
+Press 1 to change colors
+Press 2 to change difficulties
+Press Enter to reset the ball and the points
+Press 9 and 0 at the same time to reset everything to default settings

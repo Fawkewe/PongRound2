@@ -141,7 +141,6 @@ int main()
         if (IsKeyDown(KEY_S))
             paddle1Position.y += paddleDelta;
 
-        //  given your comment "Mirror paddle 1 for now", this probably does not count as an improvement but it would be irresponsible NOT to do this.
         if (IsKeyDown(KEY_I) || (IsKeyDown(KEY_UP)))
             paddle2Position.y -= paddleDelta;
         if (IsKeyDown(KEY_K) || (IsKeyDown(KEY_DOWN)))
@@ -157,8 +156,6 @@ int main()
         Box ballBox = BallBox(ballPositionNext);
         Box paddle1Box = PaddleBox(paddle1Position);
         Box paddle2Box = PaddleBox(paddle2Position);
-
-        // TODO -- increment the scoring player's score after they've touched the ball and the ball goes too far right/left
    
         if (ballBox.xMin < 0.0f) //Left Side
         {
